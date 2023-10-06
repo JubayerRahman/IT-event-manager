@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "Tech Summit",
+      "image": "https://i.ibb.co/J3ysQX8/tech-Summit.jpg",
+      "short_description": "Annual technology conference",
+      "large_description": "The Tech Summit is our flagship event, bringing together industry leaders, innovators, and tech enthusiasts. Join us for a deep dive into the latest technological trends and insights."
+    },
+    {
+      "id": 2,
+      "name": "Cybersecurity Workshop",
+      "image": "https://i.ibb.co/gPzjvHm/Cybersecurity-Workshop.jpg",
+      "short_description": "Learn how to protect your business",
+      "large_description": "Our Cybersecurity Workshop equips businesses with the knowledge and tools to safeguard their data and systems against cyber threats. Join us for hands-on training and expert guidance."
+    },
+    {
+      "id": 3,
+      "name": "AI and Machine Learning Symposium",
+      "image": "https://i.ibb.co/6y7FkX8/AI-and-Machine-Learning-Symposium.jpg",
+      "short_description": "Exploring the future of AI",
+      "large_description": "The AI and Machine Learning Symposium is a gathering of AI enthusiasts, data scientists, and researchers. Dive into the world of artificial intelligence and explore its impact on various industries."
+    },
+    {
+      "id": 4,
+      "name": "DevOps Conference",
+      "image": "https://i.ibb.co/nwtCrND/Dev-Ops-Conference.jpg",
+      "short_description": "Best practices in DevOps",
+      "large_description": "Join us at the DevOps Conference to learn about the latest DevOps methodologies, tools, and practices. Discover how DevOps can accelerate your software development and delivery processes."
+    },
+    {
+      "id": 5,
+      "name": "Cloud Computing Expo",
+      "image": "https://i.ibb.co/5BFWmRM/Cloud-Computing-Expo.jpg",
+      "short_description": "Navigating the cloud landscape",
+      "large_description": "The Cloud Computing Expo is a comprehensive event that delves into cloud technologies and solutions. Gain insights into cloud strategy, migration, and management."
+    },
+    {
+      "id": 6,
+      "name": "Web Development Bootcamp",
+      "image": "https://i.ibb.co/51k2yfm/Web-Development-Bootcamp.jpg",
+      "short_description": "Learn web development from experts",
+      "large_description": "Our Web Development Bootcamp offers intensive training in front-end and back-end web development. Whether you're a beginner or looking to enhance your skills, this bootcamp has you covered."
+    }
+  ]
+
+  
+
+
+
+
+
+  
