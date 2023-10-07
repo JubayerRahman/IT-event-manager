@@ -4,8 +4,15 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  daisyui: {
+    themes: ["light"],
+  },
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        bannerBg: "rgb(167,56,213,0.4)"
+      }
+    },
   },
   plugins: [require("daisyui")],
 }
