@@ -11,7 +11,6 @@ import Contact from "./pages/Contact/Contact.jsx"
 import Login from "./pages/Login Page/LoginPage.jsx"
 import Register from "./pages/Registerpage/Registerpage.jsx"
 import ServiceDynamic from './pages/ServiceDynamic/ServiceDynamic.jsx'
-
 const router = createBrowserRouter([
   {
     path:"/",
@@ -26,6 +25,7 @@ const router = createBrowserRouter([
         element:<About/>
       },
       {
+        // loader: ()=> fetch("JobsData.json"),
         path:"/Career",
         element:<Carrerpage/>
       },

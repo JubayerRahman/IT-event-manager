@@ -1,0 +1,57 @@
+ [
+      {
+        "ID": 1,
+        "job_position": "Event Coordinator",
+        "job_description": "Plan, organize, and execute tech events, ensuring all aspects run smoothly.",
+        "job_requirements": "Excellent organizational skills, attention to detail, ability to multitask.",
+        "education_requirements": "Bachelor's degree in Event Management or related field.",
+        "experience": "2+ years of event coordination experience.",
+        "salary": "$50,000 - $60,000 per year"
+      },
+      {
+        "ID": 2,
+        "job_position": "Marketing Specialist",
+        "job_description": "Develop and implement marketing strategies to promote tech events.",
+        "job_requirements": "Marketing or related degree, strong analytical skills, digital marketing expertise.",
+        "education_requirements": "Bachelor's degree in Marketing or a related field.",
+        "experience": "3+ years of marketing experience.",
+        "salary": "$55,000 - $65,000 per year"
+      },
+      {
+        "ID": 3,
+        "job_position": "Technical Support Specialist",
+        "job_description": "Provide technical support during events, troubleshoot issues, and ensure smooth operations.",
+        "job_requirements": "Technical background, problem-solving skills, ability to work under pressure.",
+        "education_requirements": "Associate's or Bachelor's degree in a relevant field.",
+        "experience": "2+ years of technical support experience.",
+        "salary": "$45,000 - $55,000 per year"
+      },
+      {
+        "ID": 4,
+        "job_position": "Event Planner",
+        "job_description": "Design and execute creative tech events, manage budgets, and coordinate logistics.",
+        "job_requirements": "Event planning experience, creativity, strong negotiation skills.",
+        "education_requirements": "Bachelor's degree in Event Planning or related field.",
+        "experience": "3+ years of event planning experience.",
+        "salary": "$60,000 - $70,000 per year"
+      },
+      {
+        "ID": 5,
+        "job_position": "Graphic Designer",
+        "job_description": "Create visually appealing event materials, including posters, flyers, and digital assets.",
+        "job_requirements": "Proficiency in graphic design tools, strong portfolio.",
+        "education_requirements": "Bachelor's degree in Graphic Design or a related field.",
+        "experience": "2+ years of graphic design experience.",
+        "salary": "$45,000 - $55,000 per year"
+      },
+      {
+        "ID": 6,
+        "job_position": "Client Relations Manager",
+        "job_description": "Build and maintain client relationships, understand their needs, and ensure satisfaction.",
+        "job_requirements": "Exceptional communication skills, client management experience.",
+        "education_requirements": "Bachelor's degree in Business or a related field.",
+        "experience": "3+ years of client relations experience.",
+        "salary": "$55,000 - $65,000 per year"
+      }
+]
+  

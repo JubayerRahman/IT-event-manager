@@ -16,6 +16,9 @@ const Contact = () => {
           <input type="email" placeholder="email" className="input input-bordered" required />
         </div>
         <div className="form-control">
+          <input type="text" placeholder="Subject" className="input mt-[20px] input-bordered" required />
+        </div>
+        <div className="form-control">
           <textarea className="textarea textarea-bordered h-[200px] mt-[20px] " placeholder="Write your message" required></textarea>
         </div>
         <div className="form-control mt-6">

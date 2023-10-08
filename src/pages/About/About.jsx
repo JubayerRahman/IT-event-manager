@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from "../../imgs/logo.png"
 import ReviewCarousel from '../../Components/Carousel/ReviewCarousel'
 import Aos from 'aos'
@@ -6,6 +6,7 @@ import "aos/dist/aos.css"
 import { Link } from 'react-router-dom'
 
 const About = () => {
+  const [Reviews, setReviews] = useState([])
 
   useEffect (()=>{
     fetch("./ReviewData.json")
@@ -15,7 +16,7 @@ const About = () => {
 
   return (
     <div>
-      <div className="hero min-h-screen bg-bannerBg rounded-md">
+      <div className="hero min-h-screen bg-bannerBg rounded-md p-[20px]">
       <div className="hero-content text-center ">
         <div className="">
           <img data-aos="flip-left" className='mx-auto mb-[50px]' src={logo} alt='TechEvent Pros'/>
