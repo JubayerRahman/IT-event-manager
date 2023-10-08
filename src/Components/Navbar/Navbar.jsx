@@ -1,8 +1,14 @@
 import { NavLink } from "react-router-dom"
 import logo from "../../imgs/logo.png"
 import "./Navbar.css"
+import { useContext, useEffect } from "react"
+import { AuthConst } from "../../AuthProvider/AuthProvider"
 
 const Navbar = () => {
+
+  const {user , logOut} = useContext(AuthConst)
+
+  // useEffect(()=>{},[])
 
 
     const BarLinks = 
@@ -15,8 +21,23 @@ const Navbar = () => {
 
     const LoginIngo = 
     <>
-        <li className="signinLink"><NavLink to="/Login">Sign in</NavLink></li>
-        <li ><NavLink to="/Register">Sign up</NavLink></li>
+      {
+        user ?
+        <>
+        <li>
+          <div className="flex flex-col justify-center items-center gap-[15x] cursor-pointer">
+            <img className="w-[50px] h-[50px] rounded-[100%]" src={user.photoURL} alt={user.displayName}/>
+            <h1 className="font-bold text-xl text-[#A937D4]">{user.displayName}</h1>
+          </div>
+        </li>
+        <li><button onClick={logOut} className="btn bg-[#A937D4] text-white ml-[20px]">Log Out</button></li>
+        </>
+        :
+        <>
+          <li className="signinLink"><NavLink to="/Login">Sign in</NavLink></li>
+          <li ><NavLink to="/Register">Sign up</NavLink></li>
+        </>
+      }
     </>
   return (
     <div >

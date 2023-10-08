@@ -1,10 +1,14 @@
-import { useState } from "react"
-import { Link } from "react-router-dom"
+import { useContext, useState } from "react"
+import { Link, useNavigate } from "react-router-dom"
+import { AuthConst } from "../../AuthProvider/AuthProvider"
+import { ToastContainer, toast } from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css';
 
 const LoginPage = () => {
 
   const [ptype, setptype] = useState("password")
   const [showBtnICon, setShowBtnICon] = useState("fa-regular fa-eye-slash")
+  const nevigate = useNavigate()
 
   const changePassType =(e)=>{
     e.preventDefault()
@@ -17,8 +21,25 @@ const LoginPage = () => {
       setShowBtnICon("fa-regular fa-eye-slash")
     }
   }
+
+  const {SignInFunc} = useContext(AuthConst)
+
+  const LoginFormFunc =(e)=>{
+    e.preventDefault()
+    const email = e.target.email.value
+    const password = e.target.password.value
+    SignInFunc(email , password)
+    .then(result=>{
+      toast.success("login successfully")
+      nevigate("/")
+    })  
+    .catch(error=>{
+      toast.error(error.message)
+    })
+  }
   return (
     <div>
+      <ToastContainer/>
       <div className="hero min-h-screen bg-bannerBg py-[100px]">
   <div className="hero-content flex-col lg:flex-row-reverse lg:text-right">
     <div className=" md:w-[40vw] lg:text-left">
@@ -27,13 +48,13 @@ const LoginPage = () => {
       <p className="py-6 text-left text-white text-xl">TechEvent Pros welcomes you! Sign in to access exclusive event management tools and resources. Your journey to seamless and memorable IT events begins here.</p>
     </div>
     <div className="card flex justify-center md:w-[40vw] shadow-2xl bg-base-100">
-      <form className="p-[20px] lg:card-body">
+      <form onSubmit={LoginFormFunc} className="p-[20px] lg:card-body">
         <div className="form-control">
-          <input type="email" placeholder="email" className="input input-bordered" required />
+          <input name="email" type="email" placeholder="email" className="input input-bordered" required />
         </div>
         <div className="form-control relative">
-          <input type={ptype} placeholder="Password" className="input mt-[20px] input-bordered" required />
-          <button className="absolute	right-2 bottom-3" onClick={changePassType}><i class={showBtnICon}></i></button>
+          <input name="password" type={ptype} placeholder="Password" className="input mt-[20px] input-bordered" required />
+          <button className="absolute	right-2 bottom-3" onClick={changePassType}><i className={showBtnICon}></i></button>
         </div>
         <div className="form-control mt-6">
           <button className="btn bg-[#A937D4] hover:bg-[#A937D4] text-white">Sign in</button>
