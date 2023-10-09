@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>I choose option A because here here we can see greetign is an array which is defined but it is empty so you we try to console log it, it will show  an empty array.</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>The correct answer is C, here the function takes two values and returns their combination. Now the function was given one number and one string. So by its default nature, it will try to combine both values. Because it got one string that's why it automatically transformed the first value intoatring and combinated them and returned a string.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>Here the correct answer is A, here we can see 2 arrays are created. the 2nd one was built based on the first one. But the first one was never modified so if we log it, it will show the same array which was assigned to the first array.  </i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>Option B is the correct answer. here we see a function that takes a value adds it to a statement and returns it. so when we log the function but don't provide the value by nature it will show the hard-coded statement and in the value part, it will show undefined cause it wasn't provided.  </i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>Here we see an array of numbers from 0-3. and a variable with a value of 0. We run a .foreach field in the array and in the method, we set a condition if the number is truthy the variable will increase by one otherwise nothing will happen. in the array, we have 4 numbers but 0 is falsy so it won't increase but for 1,2,3 it will. so the final variable value will be 3</i>
 
 </p>
 </details>
