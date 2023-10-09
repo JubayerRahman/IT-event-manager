@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: A
 
-<i>I choose option A because here here we can see greetign is an array which is defined but it is empty so you we try to console log it, it will show  an empty array.</i>
+<i>I chose option A because here here we can see greetign is an array which is defined but it is empty so you we try to console log it, it will show  an empty array.</i>
 
 </p>
 </details>
