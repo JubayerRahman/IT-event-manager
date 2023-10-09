@@ -3,7 +3,7 @@
 
 # [Live Link](https://assignment-9-da9d1.web.app/)
 
-![Logo](/src/imgs/logo.png)
+![Logo](/public/favIcon.jpeg)
 
 ---
 ## 5 features about my project TechEevent pros
