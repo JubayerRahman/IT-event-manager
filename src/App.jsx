@@ -7,8 +7,8 @@ function App() {
   return (
     <>
     <ScrollRestoration/>
+      <Navbar/>
       <div className="container mx-auto">
-        <Navbar/>
         <Outlet></Outlet>
       </div>
       <Footer/>

@@ -18,7 +18,7 @@ const Services = () => {
     },[])
   return (
     <div className='my-[50px]'>
-      <h1 data-aos="fade-down" className='text-center text-3xl font-bold'>Our Services</h1>
+      <h1 data-aos="fade-down" className='text-center text-3xl font-bold specialFont'>Our Services</h1>
       <div data-aos="fade-right" className='w-[70vw] md:w-1/3 rounded-lg h-[6px] bg-[#A937D4] mx-auto my-[10px]'></div>
       <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[15px] mx-[20px] md:mx-auto my-10'>
         {

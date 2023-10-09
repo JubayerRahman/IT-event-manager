@@ -13,8 +13,8 @@ const Banner = () => {
   return (
     <div  className='BannermainSection h-fit md:h-[500px] flex justify-center  flex-col'>
         <div  data-aos="fade-down" className='text-white lg:text-[#A937D4] bg-bannerBg lg:bg-[transparent] md:rounded-md lg:w-1/2 p-[20px] pt-[100px] pb-[100px] md:p-[20px]'>
-        <h1 data-aos="fade-right" className='opacity-[1] line-[5xl] text-3xl md:text-5xl font-bold text-left   '>Looking for a <br/> trustworthy and reliable team to manage your IT events?</h1>
-        <Link to="/Contact" className='btn bg-[#A937D4] text-white hover:bg-[#A937D4] mt-[20px]'>Contact us</Link>
+        <h1 data-aos="fade-right" className='opacity-[1] specialFont line-[5xl] text-3xl md:text-5xl font-bold text-left   '>Looking for a <br/> trustworthy and reliable team to manage your IT events?</h1>
+        <Link to="/Contact" className='btn bg-[#A937D4] text-white hover:bg-[#A937D4] mt-[20px] specialFont font-bold'>Contact us</Link>
         </div>
       
     </div>

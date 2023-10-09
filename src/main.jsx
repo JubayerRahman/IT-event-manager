@@ -11,10 +11,13 @@ import Contact from "./pages/Contact/Contact.jsx"
 import Login from "./pages/Login Page/LoginPage.jsx"
 import Register from "./pages/Registerpage/Registerpage.jsx"
 import ServiceDynamic from './pages/ServiceDynamic/ServiceDynamic.jsx'
+import PrivateRoutes from './Components/PrivateRoutes/PrivateRoutes.jsx'
+import ErrorPage from './pages/404 Page/ErrorPAge.jsx'
 const router = createBrowserRouter([
   {
     path:"/",
     element:<App></App>,
+    errorElement:<ErrorPage/>,
     children:[
       {
         path:"/",
@@ -22,12 +25,12 @@ const router = createBrowserRouter([
       },
       {
         path:"/About",
-        element:<About/>
+        element: <PrivateRoutes><About/></PrivateRoutes>
       },
       {
         // loader: ()=> fetch("JobsData.json"),
         path:"/Career",
-        element:<Carrerpage/>
+        element:<PrivateRoutes><Carrerpage/></PrivateRoutes>
       },
       {
         path:"/Contact",
@@ -44,7 +47,7 @@ const router = createBrowserRouter([
       {
         loader: ()=> fetch("EventData.json"),
         path:"/:id",
-        element:<ServiceDynamic/>
+        element:<PrivateRoutes><ServiceDynamic/></PrivateRoutes>
       }
     ]
   }

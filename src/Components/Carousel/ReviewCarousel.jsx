@@ -39,7 +39,7 @@ const ReviewCarousel = () => {
   };
   return (
     <div className="mx-auto my-[100px] p-[20px]">
-      <h1 data-aos="flip-left" className="text-xl md:text-3xl font-bold text-center mb-[20px]">Feedbacks from our client's</h1>
+      <h1 data-aos="flip-left" className="text-xl md:text-3xl font-bold text-center mb-[20px] specialFont">Feedbacks from our client's</h1>
       <div data-aos="fade-right" className='w-[70vw] md:w-1/2 rounded-lg h-[6px] bg-[#A937D4] mx-auto my-[10px]'></div>
       <Carousel 
       responsive={responsive}
