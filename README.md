@@ -1,8 +1,11 @@
-# React + Vite
+# TechEvent Pros
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# [Live Link](https://assignment-9-da9d1.web.app/)
 
-Currently, two official plugins are available:
+## 5 features about my project TechEevent pros
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Here are 5 features about my project. This was a challenging and at the same time very exciting project. I larned some new coding tequeniques and practiced old once. But making the design from scratch without any suggestion was bit challenging. Well i did my best, to be honest I did my best with the design and coding. Doing the backend or login or registration authentication was exciting. Ok, here are some of the features I think are unque.
+
+1. 
+
+![Layout](/src/imgs/layout.png)

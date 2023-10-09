@@ -2,51 +2,61 @@
     {
       "id": 1,
       "name": "John Doe",
+      "img":"https://i.ibb.co/z4r8Gc1/John-Doe.jpg",
       "review": "I can't express how thrilled I am with the IT event management services provided by this company. The attention to detail, seamless execution, and top-notch technical support truly made our event a success. Highly recommended!"
     },
     {
       "id": 2,
       "name": "Alice Smith",
+      "img":"https://i.ibb.co/GkLsbMR/Alice-Smith.jpg",
       "review": "Exceptional service! The team went above and beyond to make our IT event unforgettable. From the stunning venue setup to the outstanding keynote speakers, everything was perfect. Thank you!"
     },
     {
       "id": 3,
       "name": "David Wilson",
+      "img":"https://i.ibb.co/8xJyQ7F/David-Wilson.jpg",
       "review": "I'm thoroughly impressed with the professionalism and expertise of this IT event management company. Our VIP guests were delighted with the luxurious accommodations and exclusive access provided. A remarkable experience!"
     },
     {
       "id": 4,
       "name": "Emily Brown",
+      "img":"https://i.ibb.co/V2mftmD/Emily-Brown.jpg",
       "review": "The IT event management team exceeded our expectations. They handled every aspect of our event with precision, making it stress-free for us. The attention to detail was phenomenal. We'll definitely hire them again!"
     },
     {
       "id": 5,
       "name": "Michael Johnson",
+      "img":"https://i.ibb.co/NWPNQnS/Michael-Johnson.jpg",
       "review": "Five stars! Our IT event was a huge success, thanks to this company's expert planning and execution. Their ability to create engaging networking sessions and deliver a flawless event is unparalleled."
     },
     {
       "id": 6,
       "name": "Sophia Davis",
+      "img":"https://i.ibb.co/tBkGpL6/Sophia-Davis.jpg",
       "review": "I couldn't have asked for a better IT event management team. They offered a personalized touch to our event and made us feel like VIPs. The red carpet treatment was truly memorable."
     },
     {
       "id": 7,
       "name": "Matthew Turner",
+      "img":"https://i.ibb.co/3NkbBDW/Matthew-Turner.jpg",
       "review": "Outstanding event coordination! This company ensured our IT event ran smoothly from start to finish. Their commitment to excellence shines through in every aspect of their service."
     },
     {
       "id": 8,
       "name": "Olivia White",
+      "img":"https://i.ibb.co/qDMV6cc/Olivia-White.jpg",
       "review": "Highly recommend their services! Our IT event was a huge hit, and it's all thanks to their expert team. The custom branding and premium services made a significant impact."
     },
     {
       "id": 9,
       "name": "Daniel Lee",
+      "img":"https://i.ibb.co/FDL3vsM/Daniel-Lee.jpg",
       "review": "Impressive technical support! This IT event management company provided exceptional technical expertise. Our event's success can be attributed to their quick response and problem-solving abilities."
     },
     {
       "id": 10,
       "name": "Ava Johnson",
+      "img":"https://i.ibb.co/w6qjMH9/Ava-Johnson.jpg",
       "review": "Absolutely thrilled with the results! Their full event planning ensured that our IT event was a resounding success. It was an unforgettable experience, and I can't thank them enough."
     }
   ]
